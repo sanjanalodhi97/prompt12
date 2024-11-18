@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}html,
+body{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: navy;
+    position: absolute;
+
+}
+.container1{
+    width: 60%;
+    height: 65%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 5%;
+}
+.c1{
+    width: 25%;
+    height: 100%;
+    background-color:rgb(78, 78, 182);
+    border: 2px solid rgb(78, 78, 182);
+    border-radius: 2px;
+    display: block;
+    
+}
+.c2{
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+}
+h1{
+    margin-left: 25%;
+    font-size: 30px;
+    color: white ;
+    margin-top:30% ;
+}
+p{
+    color: white;
+     margin-top: 5%;
+     margin-left: 5%;
+}
+#bt1{
+  width: 200px;
+  height: 35px;
+  font-size: 20px;
+  color: white;
+  margin-left: 5%;
+  margin-top: 20%;
+  background-color: rgb(129, 129, 220);
+}
+#bt2{
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: rgb(107, 107, 218);
+}
+#bt3{
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color:rgb(228, 76, 76) ;
+}
+h2{
+    margin-left: 18%;
+    font-size: 30px;
+    margin-top: 10%;
+    color:black ;
+}
+input{
+    margin-left: 15%;
+    width: 300px;
+    height: 40px;
+    margin-top: 5%;
+
+}
+.con1{
+    width: 85%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+  font-size: 15px;
+  counter-reset: black;
+  margin-left: 5%;
+  margin-top: 5%;
+ 
+}
+label:hover{
+    cursor: pointer;
+    color: blue;
+    font-size: 22px;
+}
+#in1{
+    width: 20px;
+    height: 20px;
+}
+#bt5{
+    background-color: rgb(68, 249, 68);
+    color: black;
+    font-size: 25px;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+#bt5:hover{
+    cursor: pointer;
+    background-color: white;
+    color:black ;
+    font-size: 28px;
+}
+#bt7{
+    width: 500px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid white;
+    margin-left: 33%;
+    border-radius: 25px;
+    margin-top: 5%;
+    font-size: 25px;
+    color: white;
+  
+}
+#bt7:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-size: 28px;
+}
